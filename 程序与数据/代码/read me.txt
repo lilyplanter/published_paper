@@ -1,0 +1,13 @@
+本程序参考了论文Predicting binary, discrete and continued lncRNA-disease associations via a unified framework based on graph regression
+借鉴了其预测lncRNA与疾病的关系的算法，将其运用于预测miRNA与疾病的关系。
+
+
+用到的数据：
+1.miRNA-disease关联数据：以矩阵的形式记录了一致的miRNA与疾病的关联，excel格式
+2.disease semantic similarity1，2:记录了疾病之间的相似性，以矩阵的形式表示。txt格式
+3.miRNA功能相似性矩阵：记录了miRNA之间的相似性，以矩阵的形式表示。txt格式
+4.2，3文件夹中还有相应的加权矩阵，记录了什么时候使用相似性矩阵，什么时候使用高斯相似性矩阵。txt格式
+
+
+代码：matlab代码
+
